@@ -1,0 +1,17 @@
+{
+  "name": "contacts_manager_app",
+  "version": "1.0.0",
+  "description": "contacts management application with signup and signin functionalities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "contacts app"
+  ],
+  "author": "Sayanth Dinesh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
