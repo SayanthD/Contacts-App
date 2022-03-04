@@ -12,6 +12,32 @@
 
 		p {
 			font-size: 20px;
+			text-align: center;
+		}
+
+		#save_button {
+			padding: 10px 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-sizing: border-box;
+			width: 25%;
+			align-self: flex-end;
+			color: #fff;
+			background-color: blue;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 80%;
+			align-items: center;
+		}
+
+		td,
+		tr,
+		th {
+			border: 1px solid rgb(19, 18, 18);
+			padding: 7px;
+			align-content: center;
 		}
 	</style>
 </head>
@@ -29,9 +55,27 @@
 		<input type="Phone" required><br><br>
 		<label for="email">Email</label>
 		<input type="Email" required><br><br><br>
-		<button id="save" type="submit">Save</button><br><br>
+		<button id="save_button" type="submit">Save</button><br><br>
 
 	</form>
+
+	<div id="Contact">
+		<p>My Contacts</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Phone Number</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<td>Virat Kohli</td>
+				<td>9191912345</td>
+				<td>viratkohli@bcci.in</td>
+			</tbody>
+		</table>
+
 </body>
 
 </html>
